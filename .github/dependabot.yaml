@@ -6,7 +6,7 @@ updates:
     schedule:
       interval: "daily"
   - package-ecosystem: "gomod"
-    directory: "/go.mod"
+    directory: "/super_calculator/go.mod"
     schedule:
       interval: "daily"
   - package-ecosystem: "docker"
