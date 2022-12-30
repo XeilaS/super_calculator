@@ -1,15 +1,11 @@
 # .github/dependabot.yaml​
 version: 2
 updates:
-  - package-ecosystem: "github-actions"
-    directory: "/"
-    schedule:
-      interval: "daily"
   - package-ecosystem: "gomod"
-    directory: "/super_calculator/go.mod"
+    directory: "/super_calculator/"
     schedule:
       interval: "daily"
   - package-ecosystem: "docker"
-    directory: "/"
+    directory: "/super_calculator/"
     schedule:
       interval: "daily"
