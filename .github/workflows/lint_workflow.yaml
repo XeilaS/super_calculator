@@ -8,7 +8,7 @@ jobs:
   lint:
     name: Lint Code Base
     runs-on: ubuntu-latest
-    if: (github.actor != 'dependabot[bot]') # skip execution for dependabot
+    if: (github.actor != 'dependabot[bot]' && github.event_name == 'pull_request') # skip execution for dependabot
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
