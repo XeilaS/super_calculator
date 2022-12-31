@@ -21,7 +21,7 @@ jobs:
         uses: github/super-linter/slim@v4
         env:
           VALIDATE_ALL_CODEBASE: false # disabled so that the scan is faster
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # needed to get access to PR
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # needed to get access to P
 # Cette partie 
 # fait une analyse static de code
   semgrep:
