@@ -53,7 +53,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       security-events: write
-    # don't execute this workflow for dependabot pr
+    # don't execute this workflow for dependabot pr d
     if: (github.actor != 'dependabot[bot]')
     steps:
       - name: "Checkout code"
